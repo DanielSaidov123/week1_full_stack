@@ -60,7 +60,20 @@ function sumNumbersSafe(arr){
 } 
 
 console.log(sumNumbersSafe( [1,2,3,'d',4]));
+console.log('-------------------');
 
+function filterLargeSums(arrList, minTotal){
+    const arr3=[]
+    for (let i = 0; i <arrList.length ; i++) {
+        const arr2 =sumNumbersSafe([arrList[i]])
+        if (arr2>=minTotal){
+            arr3.push(arr2)
+        }
+     }
+     return arr3
+
+ } 
+console.log(filterLargeSums([[1,2,3,12],['s'],[true,10,1]],10));
 
 
  
