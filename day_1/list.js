@@ -66,6 +66,41 @@ const arr11=["A", "B", "C"]
 // arr11=["X", "Y", "Z"]
 console.log(arr11);
 
+console.log('/////////////////');
+const arr12=["apple", "banana", "orange"]
+arr12.push('mango')
+console.log(arr12);
+console.log('////////////////////');
+
+const arr13=[ 1, 2, 3, 4]
+x=arr13.pop()
+console.log(arr13,x);
+console.log('/////////////////');
+
+const arr14=["Dana", "Yossi", "Noa", "Ali", "Roni"]
+arr14.splice(2,1)
+console.log(arr14);
+console.log('///////////////////');
+
+const arr15=["red", "green", "blue", "yellow"]
+arr15.splice(1,2)
+console.log(arr15);
+console.log('////////////////////');
+
+const arr16=[]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
